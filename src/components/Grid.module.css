@@ -1,0 +1,63 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(24, var(--cell-size));
+  grid-template-rows: repeat(24, var(--cell-size));
+  gap: 0;
+  background-color: rgb(36 35 35 / 0%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border: none;
+  box-sizing: border-box;
+}
+
+.cell:nth-child(1n) {
+  border-right: 1px solid hsla(0, 1%, 60%, 0.1);
+}
+
+.cell:nth-child(1n+1) {
+  border-bottom: 1px solid hsla(0, 0%, 60%, 0.1);
+}
+
+/* Remove borders from first two rows */
+/* .cell:nth-child(-n + 48) {
+  border: none;
+} */
+
+/* Add horizontal border to second row */
+/* .cell:nth-child(n + 25):nth-child(-n + 48) {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+} */
+
+/* Remove borders from cells 265 to 336 */
+/* .cell:nth-child(n + 265):nth-child(-n + 336) {
+  border: none;
+} */
+
+/* Remove borders from first two and last three columns */
+/* .cell:nth-child(24n + 1),
+.cell:nth-child(24n + 2),
+.cell:nth-child(24n + 23),
+.cell:nth-child(24n + 24) {
+  border: none !important;
+} */
+
+/* Third column line, starting from row 3 */
+.cell:nth-child(n + 49):nth-child(24n + 3) {
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+/* Third-last column line, starting from row 3 */
+.cell:nth-child(n + 49):nth-child(24n + 22) {
+  border: none;
+  border-left: 1px solid rgb(255, 255, 255);
+}

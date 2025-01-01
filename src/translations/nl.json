@@ -1,0 +1,45 @@
+{
+  "menu": {
+    "project": "project",
+    "targetGroups": "doelgroepen",
+    "activities": "activiteiten",
+    "partners": "partners",
+    "results": "resultaten",
+    "contacts": "contact"
+  },
+  "slides": {
+    "slide1": {
+      "title": "Titel in het Nederlands",
+      "description": "Beschrijving in het Nederlands",
+      "paragraph1": " is een transformatief werkparadigma dat recent vrijgelaten personen uit de gevangenis helpt hun leven weer op te bouwen door middel van zinvolle activiteiten. Het programma richt zich op het creëren van een gestructureerd pad dat deelnemers verbindt met potentiële bedrijven en continue ondersteuning biedt tijdens het re-integratietraject.",
+      "paragraph2": "Door de unieke uitdagingen aan te pakken waarmee voormalig gedetineerden worden geconfronteerd, streeft Unlock ernaar om vertrouwen, stabiliteit en langdurig succes op de werkplek te bevorderen. Deze gestructureerde ondersteuning helpt deelnemers niet alleen hun vaardigheden te verbeteren, maar creëert ook een basis voor duurzame werkgelegenheid, wat zowel ten goede komt aan individuen als aan de bedrijven die hen in dienst nemen."
+    },
+    "slide2": {
+      "section1": {
+        "paragraph1": "ontwikkelt een innovatieve en uitgebreide aanpak voor re-integratie op de arbeidsmarkt, gericht op het creëren van betekenisvolle en duurzame verbindingen tussen ex-gedetineerden en potentiële werkgevers. Onze methodologie is gebaseerd op jarenlang onderzoek en praktijkervaring, waarbij we erkennen dat succesvolle re-integratie niet alleen afhangt van het vinden van werk, maar ook van het ontwikkelen van een duurzame ondersteunende omgeving.",
+        "paragraph2": "Onze unieke methodologie combineert persoonlijke begeleiding, praktische vaardigheidsontwikkeling en continue ondersteuning om een succesvolle overgang naar werk te waarborgen. Door middel van een holistische benadering werken we niet alleen aan het ontwikkelen van professionele competenties, maar ook aan essentiële interpersoonlijke vaardigheden, emotionele veerkracht en strategieën voor aanpassing op de werkplek, waardoor een meer complete en blijvende integratie wordt gewaarborgd."
+      },
+      "section2": {
+        "paragraph1": "implementeert een gestructureerd en adaptief programma dat bestaat uit gedetailleerde vaardigheidsbeoordelingen, intensieve professionele training en continue individuele mentoring. Onze aanpak is afgestemd op elke deelnemer, waarbij we erkennen dat elk individu een unieke set ervaringen, uitdagingen en potentieel heeft waarmee rekening moet worden gehouden in het re-integratieproces.",
+        "paragraph2": "We werken nauw samen met partnerbedrijven om geschikte arbeidskansen te identificeren en te ontwikkelen, waarbij we de nodige ondersteuning bieden voor een succesvolle integratie. Dit omvat begeleiding op de werkplek, voortdurende evaluatie en aanpassing van het ondersteuningsprogramma om optimale resultaten te bereiken."
+      }
+    },
+    "slide5": {
+      "section1": {
+        "paragraph1": "brengt strategische samenwerkingen tot stand met een divers netwerk van partners die zich inzetten voor sociale re-integratie door middel van werk. Onze partnerschappen omvatten bedrijven uit verschillende sectoren, van kleine lokale ondernemingen tot grote bedrijven, die allemaal onze visie delen om betekenisvolle werkgelegenheid te creëren.",
+        "paragraph2": "We werken nauw samen met onze zakelijke partners om aangepaste integratieprogramma's te ontwikkelen, waaronder sectorspecifieke training, mentoringprogramma's en mogelijkheden voor continue professionele ontwikkeling. Deze partnerschappen zijn fundamenteel voor het creëren van duurzame wegen naar werk."
+      }
+    },
+    "slide7": {
+      "section1": {
+        "paragraph1": "onderhoudt een open en toegankelijk communicatienetwerk voor iedereen die geïnteresseerd is in ons werk. Ons toegewijde team staat klaar om gedetailleerde informatie te verstrekken over onze programma's, mogelijke partnerschappen te bespreken en begeleiding te bieden over hoe deel te nemen aan onze initiatieven. We hechten waarde aan transparantie en continue dialoog met al onze belanghebbenden.",
+        "paragraph2": "We bieden meerdere communicatiekanalen, waaronder een interactief online platform, gespecialiseerde telefonische ondersteuning en de mogelijkheid van persoonlijke ontmoetingen. Ons team is voorbereid om zowel potentiële deelnemers als organisaties die geïnteresseerd zijn in het aangaan van partnerschappen te bedienen."
+      }
+    }
+  },
+  "languagePicker": {
+    "en": "EN",
+    "pt": "PT",
+    "nl": "NL"
+  }
+}
