@@ -1,9 +1,9 @@
 .container {
   position: fixed;
-  bottom: 90px;
-  left: 10%;
-  background: rgba(255, 0, 0, 0);
-  z-index: 10;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
 }
 
 @media screen and (max-width: 500px) {
@@ -14,73 +14,41 @@
 }
 
 .mainCircle {
-  width: 65px;
+  width: 60px;
   height: 60px;
-  border: 3px solid rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.194);
-  border-radius: 20%;
-  position: relative;
-}
-
-.directionDot {
-  width: 25px;
-  height: 25px;
-  background-color: rgb(72, 72, 72);
-  border: 7px solid rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  border-right: 2px solid rgba(255, 255, 255, 0.8);
+  border-top: 2px solid rgba(255, 255, 255, 0.8);
   position: absolute;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease;
 }
 
-/* Gesture animations - direction is where the finger/wheel moves */
-@keyframes moveDown {
-  0%, 100% { transform: translate(-50%, -50%); }
-  50% { transform: translate(-50%, calc(-50% + 2px)); }
+.up {
+  transform: rotate(-45deg);
+  top: 25px;
 }
 
-@keyframes moveUp {
-  0%, 100% { transform: translate(-50%, -50%); }
-  50% { transform: translate(-50%, calc(-50% - 2px)); }
+.right {
+  transform: rotate(45deg);
+  left: 15px;
 }
 
-@keyframes moveLeft {
-  0%, 100% { transform: translate(-50%, -50%); }
-  50% { transform: translate(calc(-50% - 2px), -50%); }
+.down {
+  transform: rotate(135deg);
+  top: 15px;
 }
 
-@keyframes moveRight {
-  0%, 100% { transform: translate(-50%, -50%); }
-  50% { transform: translate(calc(-50% + 2px), -50%); }
-}
-
-/* Position dots with animations */
-/* For slide 0.0 - bottom position */
-.downDot {
-  bottom: -30px;
-  left: 30px;
-  animation: moveUp 0.5s infinite ease-in-out;
-}
-
-/* For slides 1.0, 2.0, 3.0, 4.0 - top */
-.upDot {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  animation: moveDown 0.5s infinite ease-in-out;
-}
-
-/* For slides 1.0, 3.0 - right */
-.rightDot {
-  top: 50%;
-  right: -30px;
-  transform: translate(-50%, -50%);
-  animation: moveLeft 0.5s infinite ease-in-out;
-}
-
-/* For slides 1.1, 1.2, 3.1 - left */
-.leftDot {
-  top: 50%;
-  left: 0;
-  transform: translate(-50%, -50%);
-  animation: moveRight 0.5s infinite ease-in-out;
+.left {
+  transform: rotate(-135deg);
+  right: 15px;
 }

@@ -9,7 +9,6 @@ const Navbar = ({
     currentSlide, 
     onMenuToggle, 
     isMenuOpen, 
-    slideColor,
     setCurrentVerticalIndex,
     setCurrentHorizontalIndex,
     currentVerticalIndex
@@ -48,8 +47,8 @@ const Navbar = ({
         { key: 'project', vertical: 0, horizontal: 0 },
         { key: 'targetGroups', vertical: 1, horizontal: 0 },
         { key: 'activities', vertical: 2, horizontal: 0 },
-        { key: 'partners', vertical: 3, horizontal: 0 },
-        { key: 'results', vertical: 4, horizontal: 0 },
+        { key: 'results', vertical: 3, horizontal: 0 },
+        { key: 'partners', vertical: 4, horizontal: 0 },
         { key: 'contacts', vertical: 5, horizontal: 0 }
     ];
 
@@ -111,8 +110,7 @@ const Navbar = ({
             <MobileMenu 
                 isOpen={isMenuOpen} 
                 menuItems={menuItems} 
-                onItemClick={handleMenuItemClick} 
-                slideColor={slideColor}
+                onItemClick={handleMenuItemClick}
             />
         </>
     );

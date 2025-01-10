@@ -7,11 +7,7 @@ const LanguagePicker = () => {
   const [isExiting, setIsExiting] = useState(false);
 
   const handleClose = () => {
-    setIsExiting(true);
-    setTimeout(() => {
-      setIsExiting(false);
-      setIsOpen(false);
-    }, 300); // Match this with CSS animation duration
+    setIsOpen(false);
   };
 
   const handleLanguageChange = (language) => {
@@ -27,8 +23,8 @@ const LanguagePicker = () => {
       >
         {t(`languagePicker.${i18n.language}`)}
       </button>
-      {(isOpen || isExiting) && (
-        <div className={`language-picker-content ${isExiting ? 'exiting' : ''}`}>
+      {(isOpen) && (
+        <div className={`language-picker-content ${isOpen ? 'activeTooltip' : ''}`}>
           <button
             className={`language-button ${i18n.language === 'en' ? 'active' : ''}`}
             onClick={() => handleLanguageChange('en')}

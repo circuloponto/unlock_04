@@ -1,24 +1,21 @@
 import React from 'react';
+import styled from 'styled-components';
 
-// Base styles that all slides will share
-const SlideSection = ({ children, className, style }) => {
-  console.log('SlideSection rendering with:', { className, style });
-  return (
-    <section className={`slide-section ${className || ''}`} style={style}>
-      {children}
-    </section>
-  );
-};
+const Section = styled.section`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: #75b1e10a;
+  transition: opacity 0.3s ease;
+`;
 
-// Base text styles that can be extended
-const SlideText = ({ children, className }) => {
-  console.log('SlideText rendering with:', { className });
-  return (
-    <div className={`slide-text ${className || ''}`}>
-      {children}
-    </div>
-  );
-};
+const SlideSection = ({ children, style, className }) => (
+  <Section style={style} className={className}>
+    {children}
+  </Section>
+);
 
-export { SlideText };
 export default SlideSection;

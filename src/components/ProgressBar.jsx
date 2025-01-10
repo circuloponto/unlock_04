@@ -7,35 +7,27 @@ const ProgressBarContainer = styled.div`
   left: 0;
   width: 100%;
   height: 10px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(230, 131, 29, 0.2);
   z-index: 1000;
+  opacity: ${props => props.$isMenuOpen ? 0 : 1};
+  transition: opacity 0.3s ease;
 `;
 
 const Progress = styled.div`
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #e6831d;
   transition: width 0.3s ease;
 `;
 
-const ProgressBar = ({ slides, currentVerticalIndex, currentHorizontalIndex }) => {
+const ProgressBar = ({ currentVerticalIndex, currentHorizontalIndex, isMenuOpen }) => {
   const calculateProgress = () => {
-    const totalSlides = slides.reduce((acc, slide) => {
-      return acc + (slide.horizontal ? slide.horizontal.length : 1);
-    }, 0);
-
-    let currentProgress = slides.slice(0, currentVerticalIndex).reduce((acc, slide) => {
-      return acc + (slide.horizontal ? slide.horizontal.length : 1);
-    }, 0);
-
-    if (slides[currentVerticalIndex]?.horizontal) {
-      currentProgress += currentHorizontalIndex;
-    }
-
+    const totalSlides = 11;
+    const currentProgress = (currentVerticalIndex * 2) + currentHorizontalIndex;
     return Math.max(0, (currentProgress / (totalSlides - 1)) * 100);
   };
 
   return (
-    <ProgressBarContainer>
+    <ProgressBarContainer $isMenuOpen={isMenuOpen}>
       <Progress style={{ width: `${calculateProgress()}%` }} />
     </ProgressBarContainer>
   );

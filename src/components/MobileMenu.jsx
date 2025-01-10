@@ -9,7 +9,7 @@ const MenuContainer = styled.div`
   right: 0;
   width: 100%;
   height: 100vh;
-  background: ${props => props.$slideColor ? `color-mix(in srgb, ${props.$slideColor} 100%, black 0%)` : '#000'};
+  background: #75b1e10a;
   z-index: 1200;
   transform: translateX(${props => props.$isOpen ? '0' : '100%'});
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -78,12 +78,17 @@ const menuItems = [
   { key: 'project', vertical: 0, horizontal: 0 },
   { key: 'targetGroups', vertical: 1, horizontal: 0 },
   { key: 'activities', vertical: 2, horizontal: 0 },
-  { key: 'partners', vertical: 3, horizontal: 0 },
-  { key: 'results', vertical: 4, horizontal: 0 },
+  { key: 'results', vertical: 3, horizontal: 0 },
+  { key: 'partners', vertical: 4, horizontal: 0 },
   { key: 'contacts', vertical: 5, horizontal: 0 }
 ];
 
-const MobileMenu = ({ isOpen, onClose, setCurrentVerticalIndex, setCurrentHorizontalIndex, slideColor }) => {
+const MobileMenu = ({ 
+    isOpen, 
+    onClose, 
+    setCurrentVerticalIndex, 
+    setCurrentHorizontalIndex 
+}) => {
   const { t } = useTranslation();
   const lenisRef = useRef(null);
 
@@ -127,7 +132,7 @@ const MobileMenu = ({ isOpen, onClose, setCurrentVerticalIndex, setCurrentHorizo
   };
 
   return (
-    <MenuContainer $isOpen={isOpen} $slideColor={slideColor}>
+    <MenuContainer $isOpen={isOpen}>
       <MenuScroll>
         <MenuContent>
           {menuItems.map((item, index) => (

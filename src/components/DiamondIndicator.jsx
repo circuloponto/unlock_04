@@ -7,84 +7,81 @@ const DiamondIndicator = ({
   currentVerticalIndex, 
   currentHorizontalIndex, 
   isMenuOpen,
-  getSlideColor,
-  onNavigate
+  setCurrentVerticalIndex,
+  setCurrentHorizontalIndex
 }) => {
-  const getCurrentConstraints = () => {
-    const navigationConstraints = {
-      "0.0": { left: false, right: true },     // Can go right to next slide
-      "1.0": { left: true, right: true },      // Can go both ways
-      "1.1": { left: true, right: true },      // Can go both ways
-      "1.2": { left: true, right: true },      // Can go both ways
-      "2.0": { left: true, right: true },      // Can go both ways
-      "3.0": { left: true, right: true },      // Can go both ways
-      "3.1": { left: true, right: true },      // Can go both ways
-      "4.0": { left: true, right: true },      // Can go both ways
-      "5.0": { left: true, right: false },     // Can only go left to previous slide
-    };
-    const key = `${currentVerticalIndex}.${currentHorizontalIndex}`;
-    return navigationConstraints[key] || { left: false, right: false };
-  };
-
-  const getNextSlideColor = (direction) => {
-    const nextSlide = getNextSlidePosition(direction);
-    return getSlideColor(nextSlide.vertical, nextSlide.horizontal);
-  };
-
-  const getNextSlidePosition = (direction) => {
-    const currentKey = `${currentVerticalIndex}.${currentHorizontalIndex}`;
-    const slideSequence = ["0.0", "1.0", "1.1", "1.2", "2.0", "3.0", "3.1", "4.0", "5.0"];
-    const currentIndex = slideSequence.indexOf(currentKey);
+  const canGoNext = () => {
+    // Last row (index 4) has 3 slides, others have 2
+    const maxHorizontalIndex = currentVerticalIndex === 4 ? 2 : 1;
     
-    if (direction === 'right' && currentIndex < slideSequence.length - 1) {
-      const nextKey = slideSequence[currentIndex + 1];
-      const [vertical, horizontal] = nextKey.split('.').map(Number);
-      return { vertical, horizontal };
-    } else if (direction === 'left' && currentIndex > 0) {
-      const prevKey = slideSequence[currentIndex - 1];
-      const [vertical, horizontal] = prevKey.split('.').map(Number);
-      return { vertical, horizontal };
+    // Check if we can go to next slide horizontally
+    if (currentHorizontalIndex < maxHorizontalIndex) {
+      return true;
     }
     
-    return { vertical: currentVerticalIndex, horizontal: currentHorizontalIndex };
+    // Check if we can go to next row
+    if (currentVerticalIndex < 4) {
+      return true;
+    }
+    
+    return false;
   };
 
-  const handleClick = (direction) => {
-    const constraints = getCurrentConstraints();
-    if (!constraints[direction]) return;
+  const canGoPrevious = () => {
+    // Check if we can go to previous slide horizontally
+    if (currentHorizontalIndex > 0) {
+      return true;
+    }
     
-    const nextSlide = getNextSlidePosition(direction);
-    if (nextSlide.vertical !== currentVerticalIndex || nextSlide.horizontal !== currentHorizontalIndex) {
-      if (direction === 'left') {
-        if (nextSlide.vertical < currentVerticalIndex) {
-          onNavigate('up');
-        } else if (nextSlide.horizontal < currentHorizontalIndex) {
-          onNavigate('left');
-        }
-      } else if (direction === 'right') {
-        if (nextSlide.vertical > currentVerticalIndex) {
-          onNavigate('down');
-        } else if (nextSlide.horizontal > currentHorizontalIndex) {
-          onNavigate('right');
-        } else if (nextSlide.vertical !== currentVerticalIndex) {
-          onNavigate('down');
-        }
-      }
+    // Check if we can go to previous row
+    if (currentVerticalIndex > 0) {
+      return true;
+    }
+    
+    return false;
+  };
+
+  const handleNext = () => {
+    if (!canGoNext()) return;
+
+    // If we can move horizontally in the current row
+    const maxHorizontalIndex = currentVerticalIndex === 4 ? 2 : 1;
+    if (currentHorizontalIndex < maxHorizontalIndex) {
+      setCurrentHorizontalIndex(currentHorizontalIndex + 1);
+    }
+    // If we need to move to the next row
+    else if (currentVerticalIndex < 4) {
+      setCurrentVerticalIndex(currentVerticalIndex + 1);
+      setCurrentHorizontalIndex(0);
     }
   };
 
-  const constraints = getCurrentConstraints();
+  const handlePrevious = () => {
+    if (!canGoPrevious()) return;
+
+    // If we can move horizontally in the current row
+    if (currentHorizontalIndex > 0) {
+      setCurrentHorizontalIndex(currentHorizontalIndex - 1);
+    }
+    // If we need to move to the previous row
+    else if (currentVerticalIndex > 0) {
+      const previousRowIndex = currentVerticalIndex - 1;
+      setCurrentVerticalIndex(previousRowIndex);
+      // Each row (except the last) has 2 slides, so go to index 1
+      setCurrentHorizontalIndex(1);
+    }
+  };
 
   return (
     <div className={`navigation-grid ${isMenuOpen ? 'menu-open' : ''}`}>
       {/* Left button */}
       <div style={{ gridColumn: 1, gridRow: 1 }}>
         <motion.button
-          className={`navigation-button ${!constraints.left ? 'disabled' : ''}`}
+          className={`navigation-button ${!canGoPrevious() ? 'disabled' : ''}`}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => handleClick('left')}
-          disabled={!constraints.left}
+          onClick={handlePrevious}
+          disabled={!canGoPrevious()}
         >
           <div className="navigation-icon">
             <FaChevronLeft className="arrow arrow-left"/>
@@ -98,11 +95,11 @@ const DiamondIndicator = ({
       {/* Right button */}
       <div style={{ gridColumn: 4, gridRow: 1 }}>
         <motion.button
-          className={`navigation-button ${!constraints.right ? 'disabled' : ''}`}
+          className={`navigation-button ${!canGoNext() ? 'disabled' : ''}`}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => handleClick('right')}
-          disabled={!constraints.right}
+          onClick={handleNext}
+          disabled={!canGoNext()}
         >
           <div className="navigation-icon">
             <FaChevronRight className="arrow arrow-right"/>
