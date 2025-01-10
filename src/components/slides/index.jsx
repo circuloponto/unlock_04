@@ -269,12 +269,21 @@ const Slide9 = () => {
           <div className="partner-text">
             {(() => {
               const text = t('slides.slide5.section1.paragraph1');
-              const phrase = "A Rumo, Cooperativa de Solidariedade Social, Crl";
+              const phrase = "Rumo, Cooperativa de Solidariedade Social, Crl";
+              const websiteText = "https://www.rumo.org.pt/";
               const index = text.indexOf(phrase);
+              const websiteIndex = text.indexOf(websiteText);
+              
               return (
                 <>
+                 <span>A </span>
                   <span className="highlight">{phrase}</span>
-                  {text.substring(index + phrase.length)}
+                  {text.substring(index + phrase.length, websiteIndex)}
+                  <span className="highlight">
+                    <a href={websiteText} target="_blank" rel="noopener noreferrer">
+                      {websiteText}
+                    </a>
+                  </span>
                 </>
               );
             })()}
@@ -295,12 +304,21 @@ const Slide10 = () => {
           <div className="partner-text">
             {(() => {
               const text = t('slides.slide5.section2.paragraph1');
-              const phrase = "A Consultis";
+              const phrase = "Consultis";
+              const websiteText = "www.consultis.pt";
               const index = text.indexOf(phrase);
+              const websiteIndex = text.indexOf(websiteText);
+              
               return (
                 <>
+                <span>A </span>
                   <span className="highlight">{phrase}</span>
-                  {text.substring(index + phrase.length)}
+                  {text.substring(index + phrase.length, websiteIndex)}
+                  <span className="highlight">
+                    <a href="https://www.consultis.pt" target="_blank" rel="noopener noreferrer">
+                      {websiteText}
+                    </a>
+                  </span>
                 </>
               );
             })()}
@@ -321,12 +339,21 @@ const Slide11 = () => {
           <div className="partner-text">
             {(() => {
               const text = t('slides.slide5.section3.paragraph1');
-              const phrase = "A SUEM.BE";
+              const phrase = "SUEM.BE";
+              const websiteText = "https://www.suem.be/";
               const index = text.indexOf(phrase);
+              const websiteIndex = text.indexOf(websiteText);
+              
               return (
                 <>
+                 <span>A </span>
                   <span className="highlight">{phrase}</span>
-                  {text.substring(index + phrase.length)}
+                  {text.substring(index + phrase.length, websiteIndex)}
+                  <span className="highlight">
+                    <a href={websiteText} target="_blank" rel="noopener noreferrer">
+                      {websiteText}
+                    </a>
+                  </span>
                 </>
               );
             })()}

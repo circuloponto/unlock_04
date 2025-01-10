@@ -37,7 +37,7 @@
   width:20px;
   height: 20px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.82);
+  border: 2px solid rgba(164, 164, 164, 0.82);
   background: transparent;
   cursor: pointer;
   padding: 0;
@@ -56,9 +56,11 @@
 .breadcrumb-button--main {
   width: 20px;
   height:20px;
+  border: 2px solid rgba(164, 164, 164, 0.82);
 }
 
 .breadcrumb-button--sub {
   width:20px;
   height: 20px;
+  border: 2px solid rgba(164, 164, 164, 0.82);
 }
