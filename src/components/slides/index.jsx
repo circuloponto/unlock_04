@@ -10,14 +10,12 @@ const Slide1 = () => {
   return (
     <SlideSection>
       <div className="slide-container slide00">
-        <div className="slide_1">   
+        <div className="slide slide_1">   
           <div>
-
+            <div className="title highlight">UNLOCK - Unlocking New Life Opportunities in Carreer Knowledge</div>
             {t('slides.slide1.paragraph1')}
           </div>
           <div>
-
-          
           </div>
           
         </div>
@@ -31,7 +29,7 @@ const Slide2 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-      <div className="slide_2">  
+      <div className="slide slide_2">  
       {t('slides.slide1.paragraph2')}
        
       <div>
@@ -70,7 +68,7 @@ const Slide3 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-      <div className="slide_3">  
+      <div className="slide slide_3">  
           <div>{t('slides.slide2.section1.paragraph1')}</div>
           <div>
             <span className="highlight">
@@ -103,7 +101,7 @@ const Slide4 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-      <div className="slide_4">  
+      <div className="slide slide_4">  
       <div>
             <span className="highlight">
               {t('slides.slide2.section2.paragraph1').split(':')[0]}:
@@ -141,7 +139,7 @@ const Slide5 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-      <div className="slide_5">  
+      <div className="slide slide_5">  
           <div>{t('slides.slide3.section1.paragraph1')}</div>
           <div>
             {(() => {
@@ -168,7 +166,7 @@ const Slide6 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-      <div className="slide_6"> 
+      <div className="slide slide_6"> 
         <div>
           <div>
             {(() => {
@@ -210,7 +208,7 @@ const Slide7 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-      <div className="slide_7"> 
+      <div className="slide slide_7"> 
           <div>{t('slides.slide4.section1.paragraph1')}</div>
           <div>
             <span className="highlight">
@@ -235,7 +233,7 @@ const Slide8 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-        <div className="slide_8">
+        <div className="slide slide_8">
           <div>
             <span className="highlight">
               {t('slides.slide4.section2.paragraph1').split(':')[0]}:
@@ -264,7 +262,7 @@ const Slide9 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-        <div className="slide_9">
+        <div className="slide slide_9">
           <img src={rumoLogo} alt="Rumo Logo" className="partner-logo" />
           <div className="partner-text">
             {(() => {
@@ -299,7 +297,7 @@ const Slide10 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-        <div className="slide_10">
+        <div className="slide slide_10">
           <img src={consultisLogo} alt="Consultis Logo" className="partner-logo" />
           <div className="partner-text">
             {(() => {
@@ -334,7 +332,7 @@ const Slide11 = () => {
   return (
     <SlideSection>
       <div className="slide-container">
-        <div className="slide_11">
+        <div className="slide slide_11">
           <img src={suembeLogo} alt="SUEM.BE Logo" className="partner-logo" />
           <div className="partner-text">
             {(() => {

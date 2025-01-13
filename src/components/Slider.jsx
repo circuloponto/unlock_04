@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef, forwardRef, useImperativeHandle } from 'react';
 import styles from './Slider.module.css';
-import ScrollIndicator from './ScrollIndicator';
 
 const SliderComponent = forwardRef(({
   slides, 
@@ -262,12 +261,6 @@ const SliderComponent = forwardRef(({
           </div>
         ))}
       </div>
-      <ScrollIndicator 
-        currentVerticalIndex={currentVerticalIndex}
-        currentHorizontalIndex={currentHorizontalIndex}
-        isMenuOpen={isMenuOpen}
-        slides={slides}
-      />
     </div>
   );
 });

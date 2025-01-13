@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import Lenis from '@studio-freight/lenis';
 import styled from 'styled-components';
-
+import LanguagePicker from './LanguagePicker';
 const MenuContainer = styled.div`
   position: fixed;
   top: 0;
@@ -80,7 +80,7 @@ const menuItems = [
   { key: 'activities', vertical: 2, horizontal: 0 },
   { key: 'results', vertical: 3, horizontal: 0 },
   { key: 'partners', vertical: 4, horizontal: 0 },
-  { key: 'contacts', vertical: 5, horizontal: 0 }
+  
 ];
 
 const MobileMenu = ({ 
@@ -145,6 +145,7 @@ const MobileMenu = ({
               {t(`menu.${item.key}`)}
             </MenuItem>
           ))}
+          <LanguagePicker />
           <MenuInfo $isOpen={isOpen}>
             <p> 2024 UNLOCK</p>
             <p style={{ marginTop: '20px' }}>

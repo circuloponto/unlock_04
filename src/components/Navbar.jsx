@@ -49,7 +49,7 @@ const Navbar = ({
         { key: 'activities', vertical: 2, horizontal: 0 },
         { key: 'results', vertical: 3, horizontal: 0 },
         { key: 'partners', vertical: 4, horizontal: 0 },
-        { key: 'contacts', vertical: 5, horizontal: 0 }
+        
     ];
 
     const iconColor = isPressed ? 'rgb(183, 187, 202)' : isHovered ? 'rgb(167, 144, 144)' : 'rgb(222, 222, 222)';
@@ -93,7 +93,7 @@ const Navbar = ({
                                     {t(`menu.${item.key}`)}
                                 </div>
                             ))}
-                           
+                            <LanguagePicker />
                         </div>
                     </div>
 

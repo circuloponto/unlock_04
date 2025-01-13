@@ -65,6 +65,11 @@ function App() {
         setCurrentHorizontalIndex={setCurrentHorizontalIndex}
         isMenuOpen={isMenuOpen}
       />
+      {/* <LanguagePicker 
+        isMenuOpen={isMenuOpen}
+        currentVerticalIndex={currentVerticalIndex}
+        currentHorizontalIndex={currentHorizontalIndex}
+      /> */}
       <DiamondIndicator 
         currentVerticalIndex={currentVerticalIndex}
         currentHorizontalIndex={currentHorizontalIndex}
@@ -79,11 +84,6 @@ function App() {
         isMenuOpen={isMenuOpen}
       />
 
-      <LanguagePicker 
-        isMenuOpen={isMenuOpen}
-        currentVerticalIndex={currentVerticalIndex}
-        currentHorizontalIndex={currentHorizontalIndex}
-      />
       <div className="maskBottom"></div>
     </div>
   );
