@@ -52,12 +52,12 @@
 } */
 
 /* Third column line, starting from row 3 */
-.cell:nth-child(n + 49):nth-child(24n + 3) {
+/* .cell:nth-child(n + 49):nth-child(24n + 3) {
   border-right: 1px solid rgb(255, 255, 255);
-}
+} */
 
 /* Third-last column line, starting from row 3 */
-.cell:nth-child(n + 49):nth-child(24n + 22) {
+/* .cell:nth-child(n + 49):nth-child(24n + 22) {
   border: none;
   border-left: 1px solid rgb(255, 255, 255);
-}
+} */
