@@ -1,0 +1,153 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+.modal-overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: #0f314d;
+  width: 500px;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  color: white;
+}
+
+.modal-overlay.visible .modal-content {
+  transform: translateX(0);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #e6811e;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.modal-close:hover {
+  transform: scale(1.1);
+}
+
+.project-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-section h2 {
+  color: #e6811e;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.partners-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.partner-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.partner-card h3 {
+  color: #e6811e;
+  margin-bottom:10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+ /*  gap: 0.8rem; */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 12px;
+  color: white;
+}
+
+.contact-icon {
+  color: #e6811e;
+  font-size:14px;
+  flex-shrink: 0;
+}
+
+.contact-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-item a:hover {
+  color: #e6811e;
+}
+.EuDiscliamer{
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 12px;
+  color: white
+}
+.eu-logo {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.eu-logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.disclaimer {
+  font-size: 13px;
+  color: rgb(204 204 204 / 80%);
+  /* line-height: 1.5; */
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .partner-card {
+    padding: 1rem;
+  }
+}

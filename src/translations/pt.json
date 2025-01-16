@@ -1,0 +1,103 @@
+{
+  "menu": {
+    "project": "projeto",
+    "targetGroups": "grupos-alvo",
+    "activities": "atividades",
+    "partners": "parceiros",
+    "results": "resultados",
+    "contacts": "contactos"
+  },
+  "contactos": {
+    "projecto": {
+      "title": "UNLOCK - Unlocking New Life Opportunities in Career Knowledge",
+      "email": "info@unlock.pt"
+    },
+    "partnerts": {
+      "rumo": {
+        "title": "Rumo",
+        "email": "comunicacao@rumo.org.pt",
+        "mobile": "+351 212 064 920",
+        "morada": "Baía do Tejo – Parque Empresarial do Barreiro – Rua 19, nº13"
+      },
+      "consultis": {
+        "title": "Consultis",
+        "email": "consultis@consultis.pt",
+        "mobile": "+351 933261757",
+        "morada": "Rua Calouste Gulbenkian, nº52, 5º andar, E7, 4050-144 Porto, Portugal"
+      },
+      "suem": {
+        "title": "SUEM.BE",
+        "email": "info@suem.be",
+        "mobile": "+351 234 567 890",
+        "morada": "Rua da Rua, 123, 1234-123 Porto"
+      }
+    },
+    "disclaimer": {
+      "text": "Financiado pela União Europeia. Os pontos de vista e as opiniões expressas são as do(s) autor(es) e não refletem necessariamente a posição da União Europeia ou da Agência Nacional para a Gestão do Programa Erasmus+ Educação e Formação. Nem a União Europeia nem a Agência Nacional podem ser tidos como responsáveis por essas opiniões."
+    }
+  },
+  "slides": {
+    "slide1": {
+      "title": "Título em Português",
+      "description": "Descrição em Português",
+      "paragraph1": " A saída da prisão e o processo de reintegração na sociedade representam um momento de grande desafio para os ex-reclusos, sendo que o emprego é um fator crucial para apoiar essa adaptação e prevenir a reincidência. O projeto UNLOCK visa adaptar o modelo europeu de Emprego Apoiado para facilitar a inclusão de ex-reclusos no mercado de trabalho em Portugal e na Bélgica. Através de percursos personalizados, procuramos apoiar a transição para o mercado de trabalho, combater o estigma e promover a igualdade de oportunidades.",
+      "paragraph2": "Os principais objetivos incluem:",
+      "paragraph3": "1 - Adaptar o modelo de Emprego Apoiado para ex-reclusos.",
+      "paragraph4": "2 - Desenvolver diretrizes de orientação profissional para apoiar os profissionais no processo de reintegração laboral de ex-reclusos.",
+      "paragraph5": "3 - Formar 24 profissionais para aplicarem as diretrizes desenvolvidas.",
+      "paragraph6": "4 - Reforçar as infraestruturas de apoio à reintegração de ex-reclusos, aprimorando a qualificação dos operadores de EFP responsáveis pela formação de técnicos de emprego apoiado. Este projeto alinha-se com as prioridades europeias de inclusão, inovação e diversidade, promovendo a reintegração dos ex-reclusos e a redução da reincidência."
+    },
+    "slide2": {
+      "section1": {
+        "paragraph1": "A reabilitação profissional dos ex-reclusos é fundamental para a sua reintegração, garantindo igualdade de oportunidades e combatendo a discriminação. O projeto UNLOCK apoia este grupo, que enfrenta dificuldades de acesso ao mercado de trabalho, promovendo uma reintegração bem-sucedida. Os principais grupos-alvo são:",
+        "paragraph2": "Ex-reclusos: Beneficiários finais do projeto, que procuram a reintegração laboral. Com orientação personalizada e a metodologia de emprego apoiado, o objetivo é melhorar o seu acesso a oportunidades de emprego.",
+        "paragraph3": "Profissionais do setor social e de emprego: Técnicos de reintegração, assistentes sociais, técnicos de emprego e outros profissionais que prestam apoio direto aos ex-reclusos. Serão formados para implementar o modelo de emprego apoiado.",
+        "paragraph4": "Operadores EFP / Centros de EFP: Responsáveis pela formação de técnicos de emprego apoiado, que poderão usar os resultados do projeto para melhorar os seus serviços de formação."
+      },
+      "section2": {
+        "paragraph1": "ONGs de apoio a ex-reclusos: Organizações que oferecem formação e apoio, que poderão beneficiar das ferramentas do projeto para melhorar a qualidade dos seus serviços.",
+        "paragraph2": "Empregadores: Empresas interessadas em integrar práticas de emprego apoiado, com o objetivo de facilitar a inclusão de ex-reclusos no mercado de trabalho.",
+        "paragraph3": "Autoridades públicas: Entidades responsáveis por políticas sociais e de emprego, com as quais o projeto pretende colaborar para promover mudanças políticas e as práticas de emprego apoiado.",
+        "paragraph4": "A colaboração com estes públicos a diferentes níveis garante uma abordagem inclusiva e eficaz para a reintegração dos ex-reclusos, favorecendo a implementação de boas práticas no mercado de trabalho."
+      }
+    },
+    "slide3": {
+      "section1": {
+        "paragraph1": "Para além da atividade de gestão do projeto, as ações principais do projeto UNLOCK incluem o desenvolvimento de recursos adaptados para o emprego apoiado de ex-reclusos, a formação de profissionais e a disseminação dos resultados com o objetivo de promover a inclusão social e a reintegração dos ex-reclusos no mercado de trabalho.",
+        "paragraph2": "A atividade Toolkit para o Emprego Apoiado criará ferramentas indispensáveis para apoiar os profissionais que trabalham diretamente com ex-reclusos. O toolkit incluirá um manual adaptado, com estratégias e ferramentas específicas para a integração no mercado de trabalho, diretrizes para envolver empregadores, um diretório de recursos comunitários, e materiais inspiradores, como histórias de sucesso, que ajudarão a motivar e orientar os ex-reclusos ao longo do seu processo de reintegração."
+      },
+      "section2": {
+        "paragraph1": "A atividade Formação Piloto: Desenvolvimento Profissional para o Apoio à Reintegração de Ex-Reclusos capacitará 24 profissionais em Portugal e na Bélgica, dotando-os das competências necessárias para aplicar as diretrizes e os recursos desenvolvidos. As sessões de formação, que incluirão estudos de caso e exercícios interativos, permitirão que os participantes utilizem as ferramentas adquiridas em contextos reais.",
+        "paragraph2": "Por fim, a atividade Disseminação, Exploração e Eventos Multiplicadores visa aumentar a visibilidade do projeto e expandir o seu impacto. Serão organizados eventos em Portugal e na Bélgica para partilhar os resultados alcançados e promover o networking entre os stakeholders. Para complementar estas iniciativas, serão produzidos materiais de comunicação, incluindo uma brochura e um vídeo promocional, que será utilizado na campanha nas redes sociais para divulgar o projeto e as práticas de emprego apoiado, alcançando um público mais amplo. O website será mantido como um centro de recursos acessível a todos os interessados, assegurando a continuidade da disponibilização de informações e resultados após a conclusão do projeto."
+      }
+    },
+    "slide4": {
+      "section1": {
+        "paragraph1": "O projeto UNLOCK produzirá resultados concretos para apoiar a reintegração de ex-reclusos no mercado de trabalho:",
+        "paragraph2": "Toolkit para o Emprego Apoiado: Conjunto de recursos desenvolvido para responder às necessidades e desafios únicos enfrentados pelos profissionais que apoiam ex-reclusos no seu percurso de integração social e laboral. Este toolkit incluirá um manual adaptado, diretrizes para envolver os empregadores, um diretório de recursos comunitários e materiais inspiradores, como histórias de sucesso. Estes recursos serão disponibilizados a profissionais que trabalham diretamente com ex-reclusos, facilitando a sua inclusão laboral e proporcionando um acompanhamento contínuo durante todo o processo de reintegração.",
+        "paragraph3": "Formação Piloto: 8 sessões de formação mista, sendo 4 sessões realizadas em cada país (Portugal e Bélgica), com a participação de 24 profissionais no total. As sessões capacitarão os participantes - técnicos de reintegração, assistentes sociais, orientadores profissionais, técnicos de emprego apoiado e técnicos de emprego -, a aplicar as diretrizes e ferramentas desenvolvidas em cenários práticos."
+      },
+      "section2": {
+        "paragraph1": "Eventos Multiplicadores: Dois eventos, um em Portugal e outro na Bélgica, destinados a técnicos de reintegração, assistentes sociais, empregadores, representantes de ONGs, instituições públicas, empresas de recrutamento, agências de emprego, centros de formação profissional e autarquias locais. Estes eventos visam partilhar os resultados do projeto, promover o networking e fortalecer a rede de stakeholders.",
+        "paragraph2": "Campanha nas Redes Sociais: Uma campanha nas redes sociais desenvolvida para promover o projeto e aumentar a sensibilização sobre as práticas de emprego apoiado. A campanha incluirá um vídeo promocional curto, que será utilizado para divulgar o projeto e os seus resultados em diversas plataformas de redes sociais.",
+        "paragraph3": "Website do Projeto: Website como centro de recursos, disponibilizando todos os resultados e materiais de forma acessível a todos os interessados, garantindo a continuidade do acesso após o término do projeto."
+      }
+    },
+    "slide5": {
+      "section1": {
+        "paragraph1": "A Rumo, Cooperativa de Solidariedade Social, Crl, fundada em 1981, é uma organização sem fins lucrativos, sediada no Barreiro, Portugal. A sua missão é promover a inclusão educativa, profissional e comunitária de pessoas em situação de desvantagem, na perspetiva do Movimento de Emprego Apoiado. Membro fundador da Associação Portuguesa de Emprego Apoiado, a Rumo atua em áreas como a formação profissional, a integração laboral e o apoio a grupos vulneráveis, como as pessoas com deficiência ou incapacidade. O trabalho em rede é fundamental para o desenvolvimento da Rumo, considerando que as parcerias são fundamentais para uma gestão eficaz. Através de uma parceria diferentes pessoas, equipas e organizações podem trabalhar em conjunto para enfrentar interesses e preocupações comuns. A RUMO colabora em rede com empregadores, instituições públicas, organizações da sociedade civil, centros de formação profissional e grupos de autoajuda, promovendo a consciencialização sobre os direitos de pessoas em situação de desvantagem e/ou em risco de exclusão social, e oferecendo apoio à integração no mercado de trabalho, formação de profissionais e outros serviços. Em 2023, a Rumo alcançou cerca de 1800 beneficiários, incluindo 25 ex-presidiários. Para mais informações, consulte o nosso site em https://www.rumo.org.pt/."
+      },
+      "section2": {
+        "paragraph1": "A Consultis é uma organização fundada em 2005, com sede em Vila Nova de Gaia, Portugal, especializada em consultoria empresarial, inovação e emprego apoiado. Membro ativo da Associação Portuguesa de Emprego Apoiado, a Consultis opera um centro de recursos em Emprego Apoiado no Porto, oferecendo apoio a empresas e a grupos em situação de desvantagem no mercado de trabalho e na sociedade, como pessoas com deficiência ou incapacidade, jovens em risco de exclusão, migrantes e desempregados de longa duração. A organização oferece serviços de consultoria, formação e emprego apoiado, em estreita colaboração com empresas, instituições educativas e entidades públicas. Para mais informações, consulte o nosso site em www.consultis.pt."
+      },
+      "section3": {
+        "paragraph1": "A SUEM.BE, fundada em 2014, é uma organização não governamental com sede em Gent, Bélgica, e atua como associação de referência para o Emprego Apoiado. Os parceiros da SUEM.BE são: o PES-Flandres e o seu parceiro interno GTB, além das redes das Empresas Sociais de Integração no Mercado de Trabalho. A sua missão é promover a inclusão no mercado de trabalho de pessoas com deficiência e outros grupos desfavorecidos, apoiando a implementação do Emprego Apoiado nas organizações. A SUEM.BE participa em projetos nacionais e europeus, organiza conferências, sessões informativas e forma profissionais na área do Emprego Apoiado. Além disso, publica estudos, partilha boas práticas e estimula o diálogo entre profissionais, responsáveis políticos e académicos. A SUEM.BE é também membro da Associação Europeia de Emprego Apoiado (ASEE), que reúne as Associações Nacionais de Emprego Apoiado na Europa, e contribui ativamente para o desenvolvimento e disseminação de soluções inclusivas e de melhores práticas no setor. Para mais informações, consulte o nosso site em https://www.suem.be/."
+      }
+    }
+  },
+  "languagePicker": {
+    "en": "EN",
+    "pt": "PT",
+    "nl": "NL"
+  }
+}

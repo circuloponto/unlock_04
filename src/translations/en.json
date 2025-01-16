@@ -1,0 +1,104 @@
+{
+ 
+  "menu": {
+    "project": "project",
+    "targetGroups": "target-groups",
+    "activities": "activities",
+    "partners": "partners",
+    "results": "results",
+    "contacts": "contacts"
+  },
+  "slides": {
+    "slide1": {
+      "title": "Project",
+      "description": "",
+      "paragraph1": "The transition from prison and reintegration into society present significant challenges for ex-offenders, with employment playing a vital role in facilitating this adjustment and preventing recidivism. The UNLOCK project aims to adapt the European Supported Employment model to promote the inclusion of ex-offenders in the labour market in both Portugal and Belgium. Through tailored pathways, we aim to support their workforce integration, tackle stigma, and promote equal opportunities.",
+      "paragraph2": "The main objectives include:",
+      "paragraph3": "1 - Adapting the Supported Employment model for ex-prisoners.",
+      "paragraph4": "2 - Developing career guidance guidelines to support professionals in the labour market reintegration process of ex-offenders.",
+      "paragraph5": "3 - Training 24 professionals who will implement the developed guidelines.",
+      "paragraph6": "4 - Strengthening the support infrastructure for the reintegration of ex-prisoners by improving the qualifications of VET providers responsible for training supported employment consultants. This project aligns with European priorities of inclusion, innovation, and diversity, promoting reintegration and reducing recidivism."
+    },
+    "slide2": {
+      "section1": {
+        "paragraph1": "The professional rehabilitation of ex-prisoners is essential for their successful reintegration, ensuring equal opportunities and combating discrimination. The UNLOCK project supports this group, which faces challenges in accessing the labour market, by promoting a successful reintegration. The main target groups are:",
+        "paragraph2": "Ex-prisoners: The final beneficiaries of the project, seeking labour market reintegration. With personalised guidance and the supported employment methodology, the aim is to improve their access to employment opportunities.",
+        "paragraph3": "Professionals in the social and employment sectors: Reintegration officers, social workers, employment advisors, and other professionals providing direct support to ex-prisoners. They will be trained to implement the supported employment model.",
+        "paragraph4": "VET Providers / VET Centres: Responsible for training supported employment consultants, they will be able to use the project's results to improve their training services."
+      },
+      "section2": {
+        "paragraph1": "NGOs supporting ex-prisoners: Organisations offering training and support, which can benefit from the project's tools to enhance the quality of their services.",
+        "paragraph2": "Employers: Companies interested in adopting supported employment practices, aiming to facilitate the inclusion of ex-prisoners into the labour market.",
+        "paragraph3": "Public authorities: Entities responsible for social and labour policies, with which the project aims to collaborate to promote policy changes and supported employment practices.",
+        "paragraph4": "Collaboration with these different groups at various levels ensures an inclusive and effective approach to ex-prisoners' reintegration, fostering the implementation of best practices in the labour market."
+      }
+    },
+    "slide3": {
+      "section1": {
+        "paragraph1": "In addition to the project management activity, the main actions include the development of resources tailored to supported employment for ex-prisoners, professional training, and the dissemination of results through events and communication materials, with the aim of promoting social inclusion and the reintegration of ex-prisoners into the labour market.",
+        "paragraph2": "The Supported Employment Resource Toolkit activity will create essential tools to support professionals working directly with ex-prisoners. The toolkit will include an adapted manual, with strategies and specific tools for labour market integration, guidelines for engaging employers, a directory of community resources, and inspiring materials, such as success stories, to help motivate and guide ex-prisoners throughout their reintegration process."
+      },
+      "section2": {
+        "paragraph1": "The Pilot Training: Professional Development for Ex-Offender Support activity will train 24 professionals in Portugal and Belgium, equipping them with the skills needed to implement the developed guidelines and resources. The training sessions, which will include case studies and interactive exercises, will allow participants to apply the acquired tools in real-life contexts.",
+        "paragraph2": "Finally, the Dissemination, Exploitation and Multiplier Events activity aims to increase the project's visibility and expand its impact. Events will be organised in Portugal and Belgium to share the results achieved and promote networking among stakeholders. To complement these initiatives, communication materials will be produced, including a brochure and a promotional video, which will be used in the social media campaign to raise awareness of the project and supported employment practices, reaching a broader audience. The website will be maintained as a resource hub accessible to all interested parties, ensuring continued availability of information and results after the project's completion."
+      }
+    },
+    "slide4": {
+      "section1": {
+        "paragraph1": "The UNLOCK project will generate tangible results to support the reintegration of ex-offenders into the labour market:",
+        "paragraph2": "Supported Employment Resource Toolkit: Set of resources designed to address the unique needs and challenges faced by professionals supporting ex-offenders in their journey towards social and labour market integration. This toolkit will include an adapted manual, guidelines for engaging employers, a directory of community resources, and inspiring materials such as success stories. These resources will be made available to professionals working directly with ex-offenders, facilitating their labour market inclusion and providing continuous support throughout the reintegration process.",
+        "paragraph3": "Pilot Training: 8 blended training sessions, with 4 sessions held in each country (Portugal and Belgium), involving 24 professionals in total. The sessions will equip participants—including reintegration officers, social workers, career advisors, supported employment consultants, and employment officers—with the skills to apply the developed guidelines and tools in real-life scenarios."
+      },
+      "section2": {
+        "paragraph1": "Multiplier Events: Two events, one in Portugal and the other in Belgium, aimed at reintegration officers, social workers, employers, NGO representatives, public institutions, recruitment companies, employment agencies, vocational training centres, and local authorities. These events aim to share the project's results, promote networking, and strengthen the stakeholder network.",
+        "paragraph2": "Social Media Campaign: A social media campaign launched to promote the project and raise awareness of supported employment practices. The campaign includes a short promotional video, which will be used to publicize the project and its impact across various social media platforms.",
+        "paragraph3": "Project Website: A website serving as a resource hub, providing all project results and materials in an accessible manner for all interested parties, ensuring continued access after the project's conclusion."
+      }
+    },
+    "slide5": {
+      "section1": {
+        "paragraph1": "Rumo, Cooperativa de Solidariedade Social, Crl, founded in 1981, is a non-profit organisation based in Barreiro, Portugal. Its mission is to promote educational, professional, and community inclusion for disadvantaged individuals, within the framework of the Supported Employment Movement. A founding member of the Portuguese Association for Supported Employment, Rumo works in areas such as vocational training, labour market integration, and support for vulnerable groups, including people with disabilities or impairments. Networking is essential for the development of Rumo, as partnerships are key to effective management. Through partnerships, different individuals, teams, and organisations can work together to address common interests and concerns. Rumo collaborates within a network of employers, public institutions, civil society organisations, vocational training centres, and self-advocacy groups, raising awareness of the rights of disadvantaged individuals and those at risk of social exclusion, offering support for labour market integration, professional training, and other services. In 2023, Rumo reached approximately 1,800 beneficiaries, including 25 ex-offenders. For more information, please visit our website at https://www.rumo.org.pt/."
+      },
+      "section2": {
+        "paragraph1": "Consultis is an organisation founded in 2005, based in Vila Nova de Gaia, Portugal, specialising in business consultancy, innovation, and supported employment. An active member of the Portuguese Association for Supported Employment, Consultis operates a Supported Employment Resource Centre in Porto, providing support to businesses and disadvantaged groups, including people with disabilities, young people at risk of exclusion, migrants, and long-term unemployed individuals, who face disadvantages both in the labour market and in society. The organisation offers consultancy, training, and supported employment services in close collaboration with businesses, educational institutions, and public entities. For more information, please visit our website at www.consultis.pt."
+      },
+      "section3": {
+        "paragraph1": "SUEM.BE, founded in 2014, is a non-governmental umbrella organisation based in Gent, Belgium, and serves as the leading association for Supported Employment. The partners of SUEM.BE are: the PES-Flanders and its inhouse partner GTB plus the networks from the Work Integration Social Enterprises. Its mission is to promote the labour market inclusion of people with disabilities and other disadvantaged groups, supporting the implementation of Supported Employment within organisations. SUEM.BE participates in national and European projects, organises conferences, informational sessions, and trains professionals in the field of Supported Employment. Additionally, it publishes studies, shares best practices, and encourages dialogue between professionals, policymakers, and academics. SUEM.BE is also a member of the Association of Supported Employment Europe (ASEE), which brings together National Supported Employment Associations across Europe, and actively contributes to the development and dissemination of inclusive solutions and best practices in the sector. For more information, please visit our website at https://www.suem.be/"
+      }
+    }
+  },
+  "contactos": {
+    "projecto": {
+      "title": "UNLOCK - Unlocking New Life Opportunities in Career Knowledge",
+      "email": "info@unlock.pt"
+    },
+    "partnerts": {
+      "rumo": {
+        "title": "Rumo",
+        "email": "info@rumo.org.pt",
+        "mobile": "+351 234 567 890",
+        "morada": "Rua da Rua, 123, 1234-123 Porto"
+      },
+      "consultis": {
+        "title": "Consultis",
+        "email": "info@consultis.pt",
+        "mobile": "+351 234 567 890",
+        "morada": "Rua da Rua, 123, 1234-123 Porto"
+      },
+      "suem": {
+        "title": "SUEM.BE",
+        "email": "info@suem.be",
+        "mobile": "+351 234 567 890",
+        "morada": "Rua da Rua, 123, 1234-123 Porto"
+      }
+    },
+    "disclaimer": {
+      "text": "Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the National Agency for the Management of the Erasmus+ Education and Training Programme. Neither the European Union nor the National Agency can be held responsible for them."
+    }
+  },
+  "languagePicker": {
+    "en": "EN",
+    "pt": "PT",
+    "nl": "NL"
+  }
+}
